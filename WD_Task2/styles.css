@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle, #1d2b64, #f8cdda);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stopwatch {
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.display {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #000;
+    color: #0f0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #0056b3;
+}
+
+.controls button:active {
+    background: #004080;
+}
+
+.laps {
+    margin-top: 20px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.laps h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: black;
+}
